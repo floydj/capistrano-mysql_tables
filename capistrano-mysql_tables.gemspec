@@ -4,7 +4,7 @@ require_relative "lib/capistrano/mysql_tables/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "capistrano-mysql_tables"
-  spec.version       = "0.0.3"
+  spec.version       = "0.0.4"
   spec.authors       = ["Jason Floyd"]
   spec.email         = ["jason.floyd@camfil.com"]
 

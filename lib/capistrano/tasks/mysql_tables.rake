@@ -1,7 +1,7 @@
 require "yaml"
 
 def local_db_attributes
-  db_file = YAML.load_file("config/database.yml")
+  db_file = YAML.load_file("config/database.yml", aliases: true)
   DatabaseAttributes.new(database: db_file["development"]["database"],
                          username: db_file["development"]["username"],
                          password: db_file["development"]["password"],
